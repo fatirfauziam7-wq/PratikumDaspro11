@@ -6,7 +6,7 @@ public class PratikumDaspro11 {
 int hargaperCup = 18000,jumlahCup,uangBayar,totalHarga,diskon,totalBayar,kembalian,kurang;
 System.out.println ("Masukkan jumlah cup : ");
 jumlahCup = sc.nextInt ();
-System.out.println ("Masukkan uang bayar : ");
+System.out.println ("Masukkan Uang Bayar : ");
 uangBayar = sc.nextInt() ;
 totalHarga = jumlahCup*hargaperCup ;
 diskon = 0;
