@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class PratikumDaspro11 {
+public class StudiKasus1_11 {
     public static void main(String[]args){
     Scanner sc = new Scanner (System.in);
 int hargaperCup = 18000,jumlahCup,uangBayar,totalHarga,diskon,totalBayar,kembalian,kurang;
