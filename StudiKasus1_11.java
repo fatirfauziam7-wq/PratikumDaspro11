@@ -7,9 +7,7 @@ int hargaperCup = 18000,jumlahCup,uangBayar,totalHarga,diskon,totalBayar,kembali
 System.out.println ("Masukkan jumlah cup : ");
 jumlahCup = sc.nextInt ();
 System.out.println ("Masukkan uang bayar : ");
-uangBayar = sc.nextInt() ;
-totalHarga = jumlahCup*hargaperCup ;
-diskon = 0;
+
 if (totalHarga >= 100000){
     diskon = totalHarga *10/100;
 } else {
