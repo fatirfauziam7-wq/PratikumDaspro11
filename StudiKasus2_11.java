@@ -14,5 +14,16 @@ public class StudiKasus2_11 {
         if (jenisKegiatan.equalsIgnoreCase("BELMAWA") || jenisKegiatan.equalsIgnoreCase("BAKORMA") || jenisKegiatan.equalsIgnoreCase("MANDIRI")) {
             System.out.print("peringkat Juara : ");
             int peringkat = sc.nextInt();
+if (peringkat >= 1 && peringkat <= 3) {
+            if (jumlahDokumen == 4) {
+                System.out.print("Status : Dokumen lengkap. Dana penghargaan diberikan");
+            }else {
+                int kurang = 4  - jumlahDokumen;
+                System.out.print("Status : Dokumen Tidak lengkap. (kurang " + kurang + " dokumen). Dana penghargaan tidak diberikan");
+            }
+            
+        }else {
+            System.out.print("Status : Tidak meraih juara 1, 2, atau 3 Dana penghargaan tidak diberikan");
 
+        }
     
